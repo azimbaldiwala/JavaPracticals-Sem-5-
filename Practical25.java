@@ -19,7 +19,7 @@ class Threads extends Thread{
 
             catch(InterruptedException e)
             {
-                System.out.println(e);
+                System.out.println(e.getMessage());
             }
             
             System.out.println(s);
